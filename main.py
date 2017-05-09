@@ -22,7 +22,7 @@ end_date = input("einddatum, (YYY-DD-MM): ")
 5 = close
 6 = volume
 '''
-with open('005935.csv', newline='') as csvfile:
+with open('tsla.csv', newline='') as csvfile:
     stocks = csv.reader(csvfile, delimiter=' ', quotechar='|')
     stockdata = []
     for row in stocks:
